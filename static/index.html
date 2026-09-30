@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SentinelGrid</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div>
+        <p class="eyebrow">INDUSTRIAL INTELLIGENCE / LIVE</p>
+        <h1>Sentinel<span>Grid</span></h1>
+        <p class="subtitle">Real-time machine telemetry and anomaly detection.</p>
+      </div>
+      <div class="connection"><i id="dot"></i><span id="connection">CONNECTING</span></div>
+    </header>
+
+    <section class="overview">
+      <div class="metric"><span>FLEET HEALTH</span><strong id="fleetHealth">--</strong></div>
+      <div class="metric"><span>ACTIVE ASSETS</span><strong id="assetCount">4</strong></div>
+      <div class="metric"><span>INCIDENTS</span><strong id="incidentCount">0</strong></div>
+      <div class="metric"><span>STREAM</span><strong>1s</strong></div>
+    </section>
+
+    <main>
+      <section>
+        <div class="section-head"><h2>Fleet</h2><span>LIVE TELEMETRY</span></div>
+        <div id="machines" class="machines"></div>
+      </section>
+
+      <aside>
+        <div class="section-head"><h2>Incident Feed</h2><span>LAST 12</span></div>
+        <div id="incidents" class="incidents"><p class="empty">No anomalies detected.</p></div>
+      </aside>
+    </main>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
