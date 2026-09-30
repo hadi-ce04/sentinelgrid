@@ -24,17 +24,7 @@ SentinelGrid is a real-time industrial monitoring platform that simulates a flee
 
 ## 🎯 What is SentinelGrid?
 
-Industrial machines constantly generate data.
-
-Temperature.
-
-Vibration.
-
-Current.
-
-RPM.
-
-Pressure.
+Industrial machines constantly generate data, Temperature, Vibration, Current, RPM, Pressure
 
 The difficult part is not collecting the data.
 
